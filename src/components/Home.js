@@ -15,7 +15,7 @@ function Home(){
             className="App-link"
             rel="noopener noreferrer"
             >
-                My LinkedIn</a>
+                Connect with me on LinkedIn.</a>
             
             </header>
             
