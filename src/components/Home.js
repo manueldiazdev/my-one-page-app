@@ -7,6 +7,7 @@ function Home(){
         <div className = "App">
             <header className = "App-header">
             <h1> Manuel Diaz </h1>
+            <h3> Personally made link tree.</h3>
             <img src = {manueldiaz} alt = "manuel diaz"/>
                 
             <a
@@ -17,6 +18,14 @@ function Home(){
             >
                 Connect with me on LinkedIn.</a>
             
+            
+            <a
+            href="https://manueldiaz.tech"
+            target="_blank"
+            className="App-link"
+            rel="noopener noreferrer"
+            >
+                My personal website</a>
             </header>
             
             
