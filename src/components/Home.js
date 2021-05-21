@@ -7,7 +7,7 @@ function Home(){
         <div className = "App">
             <header className = "App-header">
             <h1> Manuel Diaz </h1>
-            <h3> Personally made link tree.</h3>
+            <p> Links to everywhere.</p>
             <img src = {manueldiaz} alt = "manuel diaz"/>
                 
             <a
