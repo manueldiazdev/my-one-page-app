@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {Container} from 'react-bootstrap'
 import Home from './components/Home';
 import Footer from './components/Footer';
 
