@@ -37,7 +37,7 @@ function Home(){
                        
                     </Card.Img>
                     </a>
-                    <Card.Body>View my projects on GitHub!</Card.Body>
+                    <Card.Body>Connect with me on LinkedIn</Card.Body>
                         
                     </Card>
                     
@@ -61,7 +61,7 @@ function Home(){
                        
                     </Card.Img>
                     </a>
-                    <Card.Body>Connect with me on LinkedIn</Card.Body>
+                    <Card.Body>View my projects on GitHub!</Card.Body>
                         
                     </Card>
                     </Col>
