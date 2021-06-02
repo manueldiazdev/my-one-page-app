@@ -6,12 +6,10 @@ function Footer() {
 
             <footer className="App-header">
             <p>
-         
-            Everything is still a work in progress.
+            Everything is still a work in progress. This is my self-made link tree.
             </p>
             <img src={logo} className="App-logo" alt="logo" />
-            <p>
-         
+            <p>         
             Consistently learning and developing this website with React Js with Bootstrap styling.
             </p>
         

@@ -9,8 +9,7 @@ function Home(){
 
             <div className = "App-header">
             <header className = "App">
-            <h1> Manuel Diaz </h1>
-            <p> Links to everywhere.</p>
+            <h1 className = "fade-in"> Manuel Diaz </h1>
             <Image src = {manueldiaz} alt = "manuel diaz" fluid rounded/>
             </header>
 
@@ -34,8 +33,9 @@ function Home(){
                     src = "https://wordvice-wp-static.s3-ap-northeast-1.amazonaws.com/uploads/2019/01/LinkedIn_HP.jpg"
                     className = "Card-image"
                     >
-                       
+                    
                     </Card.Img>
+                    
                     </a>
                     <Card.Body>Connect with me on LinkedIn</Card.Body>
                         
