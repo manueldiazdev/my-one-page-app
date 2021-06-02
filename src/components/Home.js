@@ -7,22 +7,21 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function Home(){
     return(
 
-            <div className = "App-header">
-            <header className = "App">
+            <div>
+            <header className = "App m-4">
             <h1 className = "fade-in"> Manuel Diaz </h1>
-            <Image src = {manueldiaz} alt = "manuel diaz" fluid rounded/>
+            <Image className = 'resize'  src = {manueldiaz} alt = "manuel diaz" fluid rounded/>
             </header>
 
-            
             <Container>
-                <Row>
-                    <Col>
+                <Row className = "p-3">
+                    <Col className = 'col-lg-4 d-flex align-items-stretch'>
                     
                         
                     
                     <Card bg = 'dark'
                     text = "muted">
-                        
+                    
                     <a
                     href="https://www.linkedin.com/in/manuel-diaz-dev/"
                     target="_blank"
@@ -39,14 +38,14 @@ function Home(){
                     </Card.Img>
                     
                     </a>
-                    <Card.Body>Connect with me on LinkedIn</Card.Body>
+                    <Card.Body>Connect with me on LinkedIn.</Card.Body>
                         
                     </Card>
                     
                     
                     </Col>
 
-                    <Col>
+                    <Col className = 'col-lg-4 d-flex align-items-stretch'>
                     <Card bg = 'dark'
                     text = "muted">
                         
@@ -70,6 +69,7 @@ function Home(){
                     </Card>
                     </Col>
                 </Row>
+                <Row className = "p-3">
                     <Col>
                     <Card bg = 'dark'
                     text = "muted">
@@ -84,7 +84,7 @@ function Home(){
                         </Card.Link>
                     </Card>
                     </Col>
-
+                </Row>
             </Container>
             </div>
             
