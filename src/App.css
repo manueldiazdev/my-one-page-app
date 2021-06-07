@@ -54,6 +54,12 @@
 }
 
 .resize {
-  width: 400px;
+  width: 300px;
   height: auto;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: "100px"; 
+  height: "100px";
 }
