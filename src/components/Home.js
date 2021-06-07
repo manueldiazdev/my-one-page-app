@@ -31,7 +31,7 @@ function Home(){
 
             <Image className = 'resize'  src = {manueldiaz} alt = "manuel diaz" fluid rounded/>
             </header>
-            <Card bg = 'dark m-3 flex'>
+            <Card bg = 'dark m-3 '>
                 <Row className = 'g-0'>
                     <Col>
                         <Github size = {150} className = 'ml-5'></Github>
