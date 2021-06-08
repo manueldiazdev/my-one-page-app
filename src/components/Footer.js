@@ -9,7 +9,7 @@ function Footer() {
             <p>         
             Consistently learning and developing this website with React Js and Bootstrap styling.
             </p>
-            <p>
+            <p className = 'fw-light'>
             Check out the source of this project <a
             href="https://github.com/manueldiazdev/my-one-page-app/tree/master"
             target="_blank"

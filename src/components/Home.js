@@ -8,18 +8,13 @@ import ReactTypingEffect from 'react-typing-effect';
 function AlertDismissible(){
 const [show, setShow] = useState(true);
     return(
-        <>
         <Alert show={show} variant="secondary" >
         <Alert.Heading className = 'text-center'>This website is still a work in progress!
         </Alert.Heading>
         <div className="d-flex justify-content-center">
-        <Button onClick={() => setShow(false)} variant="light" className = 'd-flex justify-content-center'>Dismiss</Button>
+        <Button onClick={() => setShow(false)} variant="light" className = 'd-flex justify-content-center fw-light'>Dismiss</Button>
         </div>
         </Alert>
-        {/*<!-- this button isn't required
-        {!show && <Button onClick={() => setShow(true)}>Show Alert</Button>}
-        -->*/}
-        </>
     )
 }
 
@@ -32,15 +27,14 @@ function Home(){
             <h1 className = "fade-in"> Manuel Diaz </h1>
             <h2 className = "fade-in mb-4 fs-5 fw-light" >
                 <ReactTypingEffect text = {[
-                    "Computer Engineering Student at Sacramento State",
-                    "Software Engineer Intern at Nordstrom",
-                    "Music Producer and DJ enthusiast"]} 
-                className = ""
+                    "CpE Student at Sac State",
+                    "SWE Intern at Nordstrom",
+                    "Music Producer Enthusiast"]} 
                 speed = {100}
-                eraseSpeed = {130}
+                eraseSpeed = {65}
                 typingDelay = {25}/>
             </h2>
-            <Image className = 'resize'  src = {manueldiaz} alt = "manuel diaz" fluid rounded/>
+            <Image className = 'resize mb-1'  src = {manueldiaz} alt = "manuel diaz" fluid rounded/>
             </header>
             
             <Card bg = 'dark' className = 'mt-5 cardHover'>
@@ -55,7 +49,7 @@ function Home(){
                             target="_blank"
                             rel="noopener noreferrer"
                             className = 'App-link'>GitHub</Card.Link>!</Card.Title>
-                            <Card.Text> For the most part, I open source everything I work on like this website.</Card.Text>
+                            <Card.Text className = 'fw-light'> For the most part, I open source everything I work on like this website.</Card.Text>
                         </Card.Body>
                     </Col>
                     
@@ -73,7 +67,7 @@ function Home(){
                             target="_blank"
                             rel="noopener noreferrer"
                             className = 'App-link'>LinkedIn</Card.Link>!</Card.Title>
-                            <Card.Text> Feel free to start a conversation or take a look at my work history.</Card.Text>
+                            <Card.Text className = 'fw-light'> Feel free to start a conversation or take a look at my work history.</Card.Text>
                         </Card.Body>
                     </Col>
                     
@@ -91,7 +85,7 @@ function Home(){
                             target="_blank"
                             rel="noopener noreferrer"
                             className = 'App-link'>Instagram</Card.Link>!</Card.Title>
-                            <Card.Text> Take a quick look at a few photos of my interests and day to day life.</Card.Text>
+                            <Card.Text className = 'fw-light'> Take a quick look at a few photos of my interests and day to day life.</Card.Text>
                         </Card.Body>
                     </Col>
                     
@@ -110,7 +104,7 @@ function Home(){
                             target="_blank"
                             rel="noopener noreferrer"
                             className = 'App-link'>Facebook</Card.Link>!</Card.Title>
-                            <Card.Text>Know what event i'll be at next, or maybe invite me to yours.</Card.Text>
+                            <Card.Text className = 'fw-light'>Know what event i'll be at next, or maybe invite me to yours.</Card.Text>
                         </Card.Body>
                     </Col>
                     
@@ -129,7 +123,7 @@ function Home(){
                             target="_blank"
                             rel="noopener noreferrer"
                             className = 'App-link'>my website</Card.Link>!</Card.Title>
-                            <Card.Text>Visit my personal webpage for more insight on my work.</Card.Text>
+                            <Card.Text className = 'fw-light'>Visit my personal webpage for more insight on my work.</Card.Text>
                         </Card.Body>
                     </Col>
                     
