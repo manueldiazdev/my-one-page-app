@@ -4,6 +4,7 @@ import '../App.css';
 import {Alert, Row, Col, Image, Card, Button} from 'react-bootstrap';
 import { Github, Linkedin, Instagram, Facebook, Window} from 'react-bootstrap-icons';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import ReactTypingEffect from 'react-typing-effect';
 function AlertDismissible(){
 const [show, setShow] = useState(true);
     return(
@@ -29,11 +30,20 @@ function Home(){
             <AlertDismissible />
             <header className = "App m-4">
             <h1 className = "fade-in"> Manuel Diaz </h1>
-
+            <h2 className = "fade-in mb-4 fs-5 fw-light" >
+                <ReactTypingEffect text = {[
+                    "Computer Engineering Student at Sacramento State",
+                    "Software Engineer Intern at Nordstrom",
+                    "Music Producer and DJ enthusiast"]} 
+                className = ""
+                speed = {100}
+                eraseSpeed = {130}
+                typingDelay = {25}/>
+            </h2>
             <Image className = 'resize'  src = {manueldiaz} alt = "manuel diaz" fluid rounded/>
             </header>
             
-            <Card bg = 'dark' className = 'mt-5'>
+            <Card bg = 'dark' className = 'mt-5 cardHover'>
                 <Row className = 'g-0'>
                     <Col>
                         <Github size = {200} className = 'Card-image'></Github>
@@ -45,7 +55,7 @@ function Home(){
                             target="_blank"
                             rel="noopener noreferrer"
                             className = 'App-link'>GitHub</Card.Link>!</Card.Title>
-                            <Card.Text> For the most part, I open source everything I work on, even this website.</Card.Text>
+                            <Card.Text> For the most part, I open source everything I work on like this website.</Card.Text>
                         </Card.Body>
                     </Col>
                     
@@ -119,7 +129,7 @@ function Home(){
                             target="_blank"
                             rel="noopener noreferrer"
                             className = 'App-link'>my website</Card.Link>!</Card.Title>
-                            <Card.Text>Take a break from social media and visit my personal webpage.</Card.Text>
+                            <Card.Text>Visit my personal webpage for more insight on my work.</Card.Text>
                         </Card.Body>
                     </Col>
                     
