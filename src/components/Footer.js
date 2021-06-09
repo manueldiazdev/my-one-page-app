@@ -7,7 +7,7 @@ function Footer() {
             <footer className="App-header p-3" style = {{textAlign: "center"}}>
             <img src={logo} className="App-logo" style = {{width: 'auto'}} alt="logo" />
             <p>         
-            Consistently learning and developing this website with React Js and Bootstrap styling.
+            Web development isn't my specialty but it's cool to know the basics.
             </p>
             <p className = 'fw-light'>
             Check out the source of this project <a
