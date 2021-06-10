@@ -7,15 +7,15 @@ function Footer() {
             <footer className="App-header p-3" style = {{textAlign: "center"}}>
             <img src={logo} className="App-logo" style = {{width: 'auto'}} alt="logo" />
             <p>         
-            Web development isn't my specialty but it's cool to know the basics.
+            My first attempt at Web Development. <span role="img" aria-label="smile">😄</span>
             </p>
             <p className = 'fw-light'>
-            Check out the source of this project <a
+            Check out the source code of this project <a
             href="https://github.com/manueldiazdev/my-one-page-app/tree/master"
             target="_blank"
             rel="noopener noreferrer"
             className = 'App-link'
-            >here</a> !</p>
+            >here</a>!</p>
         
         
             </footer>

@@ -60,6 +60,7 @@
 }
 .card{
   margin: 10%;
+  font-size: 3vmin;
 }
 .card:hover{
   transform: scale(1.1);
