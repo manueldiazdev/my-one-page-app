@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import manueldiaz from '../images/manueldiaz.JPG';
 import '../App.css';
 import {Alert, Row, Col, Image, Card, Button} from 'react-bootstrap';
-import { Github, Linkedin, Instagram, Facebook, Window} from 'react-bootstrap-icons';
+import { Github, Linkedin, Instagram, Facebook} from 'react-bootstrap-icons';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import ReactTypingEffect from 'react-typing-effect';
 function AlertDismissible(){
@@ -111,7 +111,7 @@ function Home(){
                 </Row>
             </Card>
 
-            <Card bg = 'dark' className = 'mt-5'>
+            {/*<Card bg = 'dark' className = 'mt-5'>
                 <Row className = 'g-0'>
                     <Col>
                         <Window size = {200}  className = 'Card-image'/>
@@ -128,7 +128,7 @@ function Home(){
                     </Col>
                     
                 </Row>
-            </Card>
+                </Card>*/}
             </div>
         
         
