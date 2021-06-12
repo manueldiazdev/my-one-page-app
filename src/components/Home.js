@@ -48,7 +48,7 @@ function Home(){
                             target="_blank"
                             rel="noopener noreferrer"
                             className = 'App-link'>GitHub</Card.Link>!</Card.Title>
-                            <Card.Text className = 'fw-light'> For the most part, I open source everything I work on like this website.</Card.Text>
+                            <Card.Text className = 'fw-light'> For the most part, I open source everything I work on.</Card.Text>
                         </Card.Body>
                     </Col>
                     
