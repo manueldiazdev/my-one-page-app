@@ -22,7 +22,6 @@ const [show, setShow] = useState(true);
 function Home(){
     return(
         <div>
-            <AlertDismissible />
             <header className = "App m-4">
             <h1 className = "fade-in"> Manuel Diaz </h1>
             <h2 className = "fade-in mb-4 fs-5 fw-light">
