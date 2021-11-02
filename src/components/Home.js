@@ -27,7 +27,8 @@ function Home(){
             <h2 className = "fade-in mb-4 fs-5 fw-light">
                 <ReactTypingEffect text = {[
                     "CpE Student at Sac State",
-                    "SWE Intern at Nordstrom",
+                    "STEM Student Intern at SMUD",
+                    "Ex-SWE Intern at Nordstrom",
                     "Music Producer Enthusiast"]} 
                 speed = {100}
                 eraseSpeed = {65}
